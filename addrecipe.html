@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="addrecipe.css">
+</head>
+<body>
+    <header>
+        <h1>Add Your Recipe</h1>
+    </header>
+    <main>
+        <form id="recipeForm" enctype="multipart/form-data">
+            <label for="title">Recipe Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                
+                <option value="Dinner">Dinner</option>
+            </select>
+
+            <label for="image">Recipe Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <label for="video">Recipe Video (optional):</label>
+            <input type="file" id="video" name="video" accept="video/*">
+
+            <label for="steps">Steps:</label>
+            <textarea id="steps" name="steps" required></textarea>
+
+            <label for="benefits">Benefits:</label>
+            <textarea id="benefits" name="benefits" required></textarea>
+
+            <label for="contents">Contents (ingredients):</label>
+            <textarea id="contents" name="contents" required></textarea>
+
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </main>
+    <script src="addrecipe.js"></script>
+</body>
+</html>

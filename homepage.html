@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET SET COOKING</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <img src="logo.png" alt="Recipe Image" onclick="location.reload();">
+        </div>
+
+        <nav>
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search for video ...">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+
+        <div id="authButtons" class="auth-buttons">
+            <button id="loginBtn" onclick="window.location.href='login.html'">Login</button>
+            <button id="signupBtn" onclick="window.location.href='signup.html'">Signup</button>
+        </div>
+    </header>
+
+    <div id="sideMenu" class="side-menu">
+        <button class="close-menu-btn" onclick="toggleMenu()">&#x25C0; Close menu</button>
+        <a href="homepage.html">Home</a>
+        <div class="category-dropdown">
+            <a href="#" onclick="toggleCategoryMenu()">Categories</a>
+            <div id="categoryMenu" class="category-menu">
+                <a href="#" class="category-btn" data-category="Breakfast">Breakfast</a>
+                <a href="#" class="category-btn" data-category="Lunch">Lunch</a>
+                <a href="#" class="category-btn" data-category="Dinner">Dinner</a>
+
+            </div>
+        </div>
+        <a href="addrecipe.html" id="addRecipeMenu" style="display: none;">Add Recipe</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+    
+    <div id="recipeList"></div> <!-- Recipes will appear here -->
+    <div id="recipe-container"></div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
