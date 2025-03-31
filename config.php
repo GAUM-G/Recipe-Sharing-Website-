@@ -1,6 +1,6 @@
 <?php
-$servername = "localhost";
-$username = "root";  
+$servername = "recipe-1.infinityfreeapp.com";
+$username = "if0_38644444";  
 $password = "";      
 $database = "getsetrecipe";
 
