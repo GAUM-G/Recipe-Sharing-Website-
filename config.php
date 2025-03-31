@@ -1,11 +1,11 @@
 <?php
 $servername = "recipe-1.infinityfreeapp.com";
 $username = "if0_38644444";  
-$password = "";      
+$password = "gautam121212";      
 $database = "getsetrecipe";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($recipe-1.infinityfreeapp.com, $if0_38644444, $gautam121212, $getsetrecipe);
 
 // Check connection
 if ($conn->connect_error) {
