@@ -1,7 +1,7 @@
 <?php
-$servername = "recipe-1.infinityfreeapp.com";
-$username = "if0_38644444";  // Default XAMPP username
-$password = "gautam121212";  // Default XAMPP password is empty
+$servername = "getsetrecipe.rf.gd";
+$username = "if0_38647208";  // Default XAMPP username
+$password = "gautam00gupta";  // Default XAMPP password is empty
 $dbname = "getsetrecipe";  // Make sure this database exists!
 
 // Create connection
