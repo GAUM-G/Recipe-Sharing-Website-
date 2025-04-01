@@ -1,7 +1,7 @@
 <?php
-$servername = "recipe-1.infinityfreeapp.com";
-$username = "if0_38644444";  
-$password = "gautam121212";      
+$servername = "getsetrecipe.rf.gd";
+$username = "if0_38647208";  
+$password = "gautam00gupta";      
 $database = "getsetrecipe";
 
 // Create connection
