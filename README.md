@@ -37,5 +37,4 @@ This is a dynamic **Recipe Sharing Website** designed for users to explore, shar
 - 📧 Email verification for user authentication.
 - 🔗 Social media recipe sharing.
 
-## 🤝 Contributing
-Feel free to fork the repository and contribute via pull requests.
+## https://recipe-sharing-website-gr3c.onrender.com/homepage.html
